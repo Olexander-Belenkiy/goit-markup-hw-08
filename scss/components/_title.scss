@@ -1,0 +1,71 @@
+// .pre-title {
+//   font-weight: 700;
+//   font-size: 36px;
+//   line-height: 1.16;
+//   text-align: center;
+//   letter-spacing: 0.03em;
+//   margin-bottom: 50px;
+// }
+
+// .comand-pre-title {
+//   font-weight: 700;
+//   font-size: 36px;
+//   line-height: 1.16;
+//   text-align: center;
+//   letter-spacing: 0.03em;
+//   margin-bottom: 50px;
+//   color: var(--secondary-title-color);
+// }
+
+// .clients-title {
+//   font-weight: 700;
+//   font-size: 36px;
+//   line-height: 1.16;
+//   text-align: center;
+//   letter-spacing: 0.03em;
+//   margin-bottom: 50px;
+// }
+
+// .pre-title {
+//   @include font-title();
+// }
+
+// .comand-pre-title {
+//   @include font-title();
+//   color: var(--secondary-title-color);
+// }
+
+// .clients-title {
+//   @include font-title();
+// }
+
+.pre-title {
+  @include font-title(400, 14px, 1.14, center, 0.03em, 50px);
+  @media screen and (min-width: 768px) {
+    @include font-title(500, 28px, 1.28, center, 0.03em, 50px);
+  }
+  @media screen and (min-width: 1200px) {
+    @include font-title(700, 36px, 1.16, center, 0.03em, 50px);
+  }
+}
+
+.comand-pre-title {
+  @include font-title(700, 36px, 1.16, center, 0.03em, 50px);
+  color: var(--secondary-title-color);
+  @media screen and (min-width: 768px) {
+    @include font-title(500, 28px, 1.28, center, 0.03em, 50px);
+  }
+  @media screen and (min-width: 1200px) {
+    @include font-title(700, 36px, 1.16, center, 0.03em, 50px);
+  }
+}
+
+.clients-title {
+  @include font-title(700, 36px, 1.16, center, 0.03em, 30px);
+  @media screen and (min-width: 768px) {
+    @include font-title(500, 28px, 1.28, center, 0.03em, 50px);
+  }
+  @media screen and (min-width: 1200px) {
+    @include font-title(700, 36px, 1.16, center, 0.03em, 50px);
+  }
+}

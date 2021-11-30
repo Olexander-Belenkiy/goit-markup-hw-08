@@ -1,0 +1,66 @@
+.logo-bottom {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: var(--primary-title-color);
+  @media screen and (min-width: 768px) {
+    margin-top: 60px;
+    // margin-bottom: 60px;
+  }
+}
+
+.web {
+  color: #2196f3;
+}
+
+.contacts-bot {
+  display: flex;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #2f303a;
+  @media screen and (min-width: 768px) {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+}
+
+.container-footer {
+  @media screen and (min-width: 768px) {
+    margin-bottom: 60px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  @media screen and (min-width: 1200px) {
+    flex-wrap: nowrap;
+  }
+}
+
+.footer-adress-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  @media screen and (min-width: 1200px) {
+    align-items: inherit;
+  }
+
+  // display: flex;
+  // align-items: baseline;
+  // justify-content: space-between;
+  // flex-wrap: wrap;
+}
+
+.contacts-list-bot {
+  // margin-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  @media screen and (min-width: 1200px) {
+    align-items: inherit;
+  }
+}

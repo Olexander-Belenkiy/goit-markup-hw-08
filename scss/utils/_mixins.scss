@@ -1,0 +1,17 @@
+// @mixin font-title {
+//   font-weight: 700;
+//   font-size: 36px;
+//   line-height: 1.16;
+//   text-align: center;
+//   letter-spacing: 0.03em;
+//   margin-bottom: 50px;
+// }
+
+@mixin font-title($fw, $fs, $lh, $ta, $ls, $mb) {
+  font-weight: $fw;
+  font-size: $fs;
+  line-height: $lh;
+  text-align: $ta;
+  letter-spacing: $ls;
+  margin-bottom: $mb;
+}
